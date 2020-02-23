@@ -6,7 +6,7 @@ public class BankCharges {
 	public static void main(String[] args) {
 		int Basefare= 10;
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the number of checks written:");
+		System.out.println("Enter the number of checks written:");//Number of checks
 		int numberOfChecks = sc.nextInt();
 		if(numberOfChecks<20) {
 			double charges = Basefare+(numberOfChecks*0.10);

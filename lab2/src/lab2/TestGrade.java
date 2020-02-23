@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class TestGrade {
 		public static void main(String[] args) {
 			Scanner sc=new Scanner(System.in);
-			System.out.println("Enter the test score1:");
+			System.out.println("Enter the test score1:");// score 1
 			double score1= sc.nextDouble();
-			System.out.println("Enter the test score2:");
+			System.out.println("Enter the test score2:");// score 2
 			double score2= sc.nextDouble();
-			System.out.println("Enter the test score3:");
+			System.out.println("Enter the test score3:");// score 3
 			double score3= sc.nextDouble();
 			double average=(score1+score2+score3)/3;
 			System.out.println("average of Scores is "+ average);

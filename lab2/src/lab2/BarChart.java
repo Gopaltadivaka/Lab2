@@ -3,15 +3,15 @@ import java.util.*;
 public class BarChart { 
 	public static void main(String[]args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the Sales for Store 1:");
+		System.out.println("Enter the Sales for Store 1:");// Sales for store 1
 		int salesForStore1=sc.nextInt();
-		System.out.println("Enter the Sales for Store 2:");
+		System.out.println("Enter the Sales for Store 2:");// Sales for store 2
 		int salesForStore2=sc.nextInt();
-		System.out.println("Enter the Sales for Store 3:");
+		System.out.println("Enter the Sales for Store 3:");// Sales for store 3
 		int salesForStore3=sc.nextInt();
-		System.out.println("Enter the Sales for Store 4:");
+		System.out.println("Enter the Sales for Store 4:");// Sales for store 4
 		int salesForStore4=sc.nextInt();
-		System.out.println("Enter the Sales For Store 5:");
+		System.out.println("Enter the Sales For Store 5:");// Sales for store 5
 		int salesForStore5=sc.nextInt();
 		sc .close();
 		System.out.println(" Sales For Store 1:"+getSaleString(salesForStore1));

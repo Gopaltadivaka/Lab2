@@ -4,7 +4,7 @@ public class SumOfNumbers {
 	public static void main(String[] args) {
 		int i=0,sum = 0;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the number:");
+		System.out.println("Enter the number:");// Number to add
 		int num = sc.nextInt();
 		for(i=0;i<num+1;i++) {
 			sum +=i ;	
